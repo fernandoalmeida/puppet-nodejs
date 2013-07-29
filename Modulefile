@@ -1,0 +1,8 @@
+name         'fernandoalmeida-nodejs'
+version      '0.0.1'
+source       'https://github.com/fernandoalmeida/puppet-nodejs.git'
+author       'Fernando Almeida'
+license      'Apache License, Version 2.0'
+summary      'A Puppet module for installing and configuring Node.js'
+description  'A Puppet module for installing and configuring Node.js'
+project_page 'https://github.com/fernandoalmeida/puppet-nodejs'
