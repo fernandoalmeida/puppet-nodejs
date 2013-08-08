@@ -24,7 +24,10 @@ class nodejs {
     command     => "apt-get update",
     refreshonly => true,
   }->
-  package {['nodejs', 'npm']:
+  package {'nodejs':
+    ensure  => installed,
+  }->
+  package {'npm':
     ensure  => installed,
   }
   
